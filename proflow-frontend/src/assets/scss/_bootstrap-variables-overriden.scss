@@ -1,0 +1,80 @@
+@import '_fonts.scss';
+
+// fonts
+$font-family-base: Inter, sans-serif;
+
+// colors
+$alice-blue: #F0F3F6;
+$white: #FFFFFF;
+$black: #000000;
+$black-05: rgba($black, 0.05);
+$black-06: rgba($black, 0.60);
+$black-40: rgba($black, 0.40);
+$black-75: rgba($black, 0.75);
+$black-90: rgba($black, 0.90);
+$blue-light: #3860FF;
+$blue: #0532E6;
+$blue-dark: #0020A0;
+$blue-darker: #00125B;
+$gray-darker: #5A5A5A;
+$gray: #8D99A8;
+$gray-light: #F8F8F8;
+$gray-lightest: #EEEEEE;
+$gray-outline: #D6D6D6;
+$gray-outline-hover: #F5F5F5;
+$gray-outline-active: #EAEAEA;
+$green-light: #00A811;
+$dodger-blue: #3AACFF;
+$red-light: #FF5252;
+$orange-light: #DC781B;
+$pink: #DC1B50;
+$pink-light: #F5BBCB;
+
+
+// color theme mapping
+$body-bg: $alice-blue !default;
+$primary: $blue !default;
+$secondary: $gray-darker !default;
+$danger: $red-light !default;
+$light: $white !default;
+$pink: $pink !default;
+$info: $alice-blue !default;
+
+//$btn-padding-x: 14px !default;
+//$btn-padding-y: 4px !default;
+
+$card-spacer-x: 16px !default;
+$card-border-radius: 8px !default;
+$card-border-width: 1px !default;
+$card-border-color: #DDE2E8 !default;
+
+
+$theme-colors: (
+    "black": $black,
+    "black-05": $black-05,
+    "black-40": $black-40,
+    "black-75": $black-75,
+    "black-90": $black-90,
+    "blue-light": $blue-light,
+    "gray-outline": $gray-outline,
+    "gray-darker": $gray-darker,
+    "green-light": $green-light,
+    "orange-light": $orange-light,
+    "pink-light": $pink-light,
+    "pink": $pink,
+    "card-green-success": rgba(0, 168, 17, 0.1),
+    "avatar-gray": #d1d5e6,
+    "placeholder-color": #999999
+);
+
+// shadow
+$box-shadow: none;
+
+// border radius
+$border-radius: 6px;
+
+// input
+$input-focus-border-color: $dodger-blue;
+$form-feedback-valid-color: $dodger-blue;
+
+

@@ -1,0 +1,15 @@
+// overrides SASS variable
+// Bootstrap 4 - https://github.com/twbs/bootstrap/blob/master/scss/_variables.scss
+// BootstrapVue Variables - https://github.com/bootstrap-vue/bootstrap-vue/blob/master/src/_variables.scss
+@import '_bootstrap-variables-overriden.scss';
+
+// Include Bootstrap and BootstrapVue SCSS files
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+
+@import '~bootstrap-vue/src/icons.scss';
+
+// Other global custom styles
+@import '_global.scss';
+@import '_navbar.scss';
+@import '_sidebar.scss';

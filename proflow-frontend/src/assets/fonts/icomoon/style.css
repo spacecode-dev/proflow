@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?mun0zo');
+  src:  url('fonts/icomoon.eot?mun0zo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mun0zo') format('truetype'),
+    url('fonts/icomoon.woff?mun0zo') format('woff'),
+    url('fonts/icomoon.svg?mun0zo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pf-icon-check-grey:before {
+  content: "\e927";
+  color: #8d99a8;
+}
+.icon-pf-icon-delete-grey:before {
+  content: "\e928";
+  color: #8d99a8;
+}
+.icon-pf-reverse-arrow:before {
+  content: "\e921";
+  color: #8d99a8;
+}
+.icon-pf-card-success:before {
+  content: "\e926";
+}
+.icon-pf-check-round:before {
+  content: "\e91d";
+}
+.icon-pf-filled-notification:before {
+  content: "\e920";
+  color: #606974;
+}
+.icon-pf-tag:before {
+  content: "\e922";
+  color: #606974;
+}
+.icon-pf-loading:before {
+  content: "\e923";
+}
+.icon-pf-desktop:before {
+  content: "\e924";
+}
+.icon-pf-help:before {
+  content: "\e925";
+}
+.icon-pf-calendar:before {
+  content: "\e918";
+}
+.icon-pf-dots-horizontal:before {
+  content: "\e91a";
+}
+.icon-pf-drag:before {
+  content: "\e919";
+}
+.icon-pf-link:before {
+  content: "\e91b";
+}
+.icon-pf-archived:before {
+  content: "\e902";
+}
+.icon-pf-arrow-left:before {
+  content: "\e90c";
+  color: #5a5a5a;
+}
+.icon-pf-check:before {
+  content: "\e917";
+}
+.icon-pf-check-square:before {
+  content: "\e908";
+}
+.icon-pf-cog:before {
+  content: "\e904";
+}
+.icon-pf-comment:before {
+  content: "\e916";
+}
+.icon-pf-company:before {
+  content: "\e90a";
+}
+.icon-pf-delete-circle:before {
+  content: "\e90e";
+}
+.icon-pf-draft:before {
+  content: "\e903";
+}
+.icon-pf-feed:before {
+  content: "\e910";
+}
+.icon-pf-file-edit:before {
+  content: "\e901";
+}
+.icon-pf-flag:before {
+  content: "\e914";
+}
+.icon-pf-help1:before {
+  content: "\e909";
+}
+.icon-pf-inbox:before {
+  content: "\e912";
+}
+.icon-pf-lock:before {
+  content: "\e907";
+}
+.icon-pf-notification:before {
+  content: "\e913";
+  color: #606974;
+}
+.icon-pf-pencil:before {
+  content: "\e91e";
+}
+.icon-pf-remove:before {
+  content: "\e90f";
+}
+.icon-pf-rocket:before {
+  content: "\e90d";
+}
+.icon-pf-trash:before {
+  content: "\e915";
+}
+.icon-pf-user-arrow:before {
+  content: "\e90b";
+}
+.icon-pf-user-group:before {
+  content: "\e905";
+}
+.icon-pf-user-no-neck:before {
+  content: "\e900";
+}
+.icon-pf-user-single:before {
+  content: "\e906";
+}
+.icon-pf-user-thin:before {
+  content: "\e91f";
+}
+.icon-pf-users:before {
+  content: "\e911";
+}
+.icon-pf-upload:before {
+  content: "\e91c";
+}

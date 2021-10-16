@@ -1,0 +1,78 @@
+{
+  "name": "proflow-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode staging",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-autoformat": "^20.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^20.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^21.0.0",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^21.0.0",
+    "@ckeditor/ckeditor5-editor-balloon": "^20.0.0",
+    "@ckeditor/ckeditor5-essentials": "^20.0.0",
+    "@ckeditor/ckeditor5-link": "^20.0.0",
+    "@ckeditor/ckeditor5-list": "^20.0.0",
+    "@ckeditor/ckeditor5-mention": "^20.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^20.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^20.0.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.1",
+    "@ckeditor/ckeditor5-word-count": "^20.0.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.14.0",
+    "core-js": "^3.6.4",
+    "moment-timezone": "^0.5.31",
+    "n": "^6.5.1",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^0.5.1",
+    "tiptap": "^1.29.0",
+    "vee-validate": "^3.3.0",
+    "vue": "^2.6.11",
+    "vue-google-oauth2": "^1.5.4",
+    "vue-multiselect": "^2.1.6",
+    "vue-router": "^3.1.6",
+    "vuedraggable": "^2.24.0",
+    "vuex": "^3.4.0",
+    "vuex-persistedstate": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-vuex": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "lint-staged": "^10.2.2",
+    "mutationobserver-shim": "^0.3.3",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.16.0",
+    "portal-vue": "^2.1.6",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-bootstrap-vue": "~0.6.0",
+    "vue-template-compiler": "^2.6.11",
+    "vue-multiselect": "^2.1.6",
+    "moment": "^2.27.0",
+    "mobile-device-detect": "^0.4.3"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}
